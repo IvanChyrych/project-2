@@ -1,0 +1,34 @@
+.alertContainer {
+    max-width: 400px;
+    padding: 10px;
+    border: 1px solid transparent;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+    margin: 15px;
+    > :last-child {
+      margin-left: auto;
+    }
+  }
+  
+  .alert {
+    color: orange;
+    border: 1px solid orange;
+  }
+  .error {
+    color: red;
+    border: 1px solid red;
+  }
+  .confirm {
+    color: greenyellow;
+    border: 1px solid greenyellow;
+  }
+  .warning {
+    color: gray;
+    border: 1px solid gray;
+  }
+  .notice {
+    color: rgb(0, 140, 255);
+    border: 1px solid rgb(0, 140, 255);
+  }
