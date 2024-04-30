@@ -1,0 +1,20 @@
+.cardSmallContainer {
+    display: flex;
+    margin: auto;
+    max-width: 150px;
+    border: 1px solid black;
+}
+
+.cardSmallTitle {
+    // font-family: Inter;
+    // font-size: 12px;
+    // font-weight: 600;
+    // line-height: 28px;
+    // text-align: left;
+    font-size: small;
+
+}
+
+.cardSmallImage {
+    max-width: 150px;
+}
